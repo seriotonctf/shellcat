@@ -6,29 +6,29 @@ ShellCat is a python tool for generating reverse shell payloads. It supports a v
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/seriotonctf/shellcat.git
 ```
 
 Navigate to the shellcat directory:
 
-```bash
+```
 cd shellcat
 ```
 
 Install the required Python packages:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-```bash
+```
 python3 shellcat.py <shell_type> <ip> <port> [options]
 ```
 
-```bash
+```
    _____ _          _ _  _____      _   
   / ____| |        | | |/ ____|    | |  
  | (___ | |__   ___| | | |     __ _| |_ 
