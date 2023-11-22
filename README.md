@@ -3,6 +3,20 @@
 ShellCat is a python tool for generating reverse shell payloads. It supports a variety of shell types, including bash, python, php, nc, and more. It also provides options for URL encoding, Base64 encoding, writing the payload to a file, and copying the payload to the clipboard.
 
 ## Installation
+### Prerequisites
+Before installing shellcat, make sure you have xclip installed on your system. This is necessary for clipboard functionality. You can install xclip using the following command:
+
+```bash
+sudo apt-get install xclip
+```
+
+### Installing Shellcat via pip
+```bash
+pip3 install shellcat
+```
+After installation, you can start using shellcat by simply typing `shellcat` in your terminal.
+
+### Installation from GitHub Repository
 
 Clone the repository:
 
